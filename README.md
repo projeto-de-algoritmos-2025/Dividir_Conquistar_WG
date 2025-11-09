@@ -1,7 +1,7 @@
 
-# Exercícios sobre Grafos 1
+# Exercícios sobre Dividir e Conquistar
 
-**Conteúdo da Disciplina**: Grafos 1<br>
+**Conteúdo da Disciplina**: Dividir e Conquistar<br>
 
 ## Alunos
 
@@ -12,17 +12,15 @@
 
 ## Sobre
 
-Esse exercício visa buscar a resolução dos exercícios escolhidos pela plataforma do LeetCode, com o objetivo de mostrar nossos conhecimentos aprendidos no conteúdo de grafos 1. Neles vamos aplicar conceitos e conhecimentos de lógica aprendidos na matéria de Projeto de Algoritmos com o professor Maurício Serrano.
+Esse exercício visa buscar a resolução dos exercícios escolhidos pela plataforma do LeetCode, com o objetivo de mostrar nossos conhecimentos aprendidos no conteúdo de Dividir e Conquistar. Neles vamos aplicar conceitos e conhecimentos de lógica aprendidos na matéria de Projeto de Algoritmos com o professor Maurício Serrano.
 
 Principais funcionalidades:
-- Descobrir o maior caminho dentro de uma árvore.
-- Identificar a existências de ciclos e pais duplicados para um mesmo nó em um grafo direcionado.
-- Identificação de ciclos dentro de uma implementação de uma matriz de adjacência.
+- 
+- 
+- 
 
 
 ## Screenshots
-
-### Visualização de Grafo → Execução de Algoritmo →  Resultado de Caminho Mínimo
 
 #### Questão 1   
 
@@ -32,13 +30,15 @@ Principais funcionalidades:
 
 ![Programação do curso](./imgs/questao_1_resp.png)
 
+**Explicação da Resolução:**
+
 ---
 
 #### Questão 2   
 
 ![Execução de Algoritmo](./imgs/questao_2.png)
 
-**Explicação da Resolução:** Foi utilizado dois vetores auxiliares para marcação de quem são filhos e quem são pais dentro das arestas passadas, com isso seria possível verificar se algum filho estava apontando para algum pai (Ciclo) ou se algum filho estava recebendo um segundo pai (Quebra da árvore).
+**Explicação da Resolução:** 
 
 ---
 
@@ -46,7 +46,7 @@ Principais funcionalidades:
 
 ![Resultado de Caminho Mínimo](./imgs/questao_3.png)
 
-**Explicação da Resolução:** Para esta questão foi utilizado uma lógica de matriz de adjacencia que guardava todas as dependências fornecidas. Com isso foi desenvolvido um modelo de DFS para percorrer a matriz com ajuda de um vetor de visitados, para analisar se em algum momento as dependências de cursos criavam um ciclo.
+**Explicação da Resolução:** 
 
 ---
 
