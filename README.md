@@ -48,7 +48,7 @@ Esse exercício visa buscar a resolução dos exercícios escolhidos pela plataf
 
 ![Código](./imgs/questao_3_resp.png)
 
-**Explicação da Resolução:** 
+**Explicação da Resolução:** Este algoritmo resolve o problema de mesclar K listas encadeadas, todas já ordenadas individualmente, em uma única lista encadeada também ordenada. A estratégia central é usar uma min-heap (fila de prioridade). A min-heap armazena a cabeça de cada uma das K listas. Em cada passo, o menor elemento entre todas as cabeças é extraído da heap, adicionado à lista resultante, e o próximo elemento da lista de onde ele veio é inserido na heap.
 
 ---
 
